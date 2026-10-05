@@ -8,26 +8,7 @@
 
 <picture> <img src="3.1/1.png"> 
 </picture>
-
-
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConsoleApp1
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
             int x = 17 / 5;
             int y = 17 % 5;
             Console.WriteLine($"X = {x}");
-            Console.WriteLine($"Y = {y}");
-
-            }
-        }
-    }
-}
+            Console.WriteLine($"Y = {y}")
